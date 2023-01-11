@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta> 
+        <title>Encriptador</title>
+        <script src="javascript.js"></script>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+        
+        
+    </head>
+    
+    <body id="cuerpo">
+        
+        <header  class="cabezera">
+            <ul class="logomascolumna2">
+                <li class="logo" >
+                    <img class="vector" src="imagenes/Logo.png" alt="logo de encriptador">
+                </li>
+                <li class="columna2">
+                    <div class="cajaMostrar" id="cajaMostrar">
+                        <div class="sinAccion" id="sinAccion" name="vacio">
+                                <img src="imagenes/Muñeco.png" alt="muñeco" class="imagenMuneco">
+                                <div class="cajamensajes">
+                                    <p class="mensaje1">Ningún mensaje fue encontrado</p>
+                                    <p class="mensaje2">Ingresa el texto que deseas encriptar o desencriptar</p> 
+                                </div>
+                                
+                        </div> 
+                        <div class="accionCifrar" id="accionCifrar" >
+                            <textarea   id="cajaTextoMostrar" class="txtMostrar" name="mostrar" readonly="readonly"></textarea>
+                            <input type="button" id="botonCopiar" onclick="copiarTexto()" class="btnCopiar" value="Copiar">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+                
+        </header >
+
+        <main class="caja">
+            
+            <form class="contenido" >
+
+                <ul class="columnas">
+                    <div class="columna1">
+                        <div class="limiteTexto" name="limite">
+                            <textarea  autofocus id="cajaTextoEscribir" class="txtEscribir"  placeholder="Ingrese su texto aquí" name="Escribir"></textarea>
+                        </div> 
+    
+                        <div class="cajaError" id="cajaError">
+                            <iconify-icon class="icono" id="icono" icon="bi:exclamation-circle-fill"></iconify-icon>
+                            <textarea class="txtError" id="txtError"></textarea>
+                        </div>
+
+                        <div class="botones">
+                            <input type="button" class="btnEncriptar" id="btnEncriptar" onclick="encriptar()" value="Encriptar">
+                            <input type="button" class="btnDesencriptar" id="btnDesencriptar" onclick="desencriptar()" value="Desencriptar">
+                        </div>
+                    </div>
+                </ul>
+                
+            </form>
+
+        </main>
+        
+        <footer class="copyright" id="copyright">
+            <p >&copy Copyright by Edward Quispe</p>
+        </footer>
+        
+        <script src="javascript.js"></script>
+        
+    
+    </body>
+    
+</html> 
