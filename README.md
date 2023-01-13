@@ -1,6 +1,7 @@
 #PROYECTO: DECODIFICADOR DE TEXTO CON JAVASCRIPT
 
-Este proyecto esta basado en la plantilla [Alura Challenge - Desafío 1 - Lógica](https://www.figma.com/file/GKUU76bQBswSEufjKGicx3/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica-(Copy)
+Este proyecto esta basado en la plantilla 
+[Alura Challenge Desafío 1  Lógica](https://www.figma.com/file/GKUU76bQBswSEufjKGicx3/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica- "Alura Challenge Desafío 1  Lógica")
 
 ![](https://i.ibb.co/K0DZKJZ/Encriptador.png)
 
