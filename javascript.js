@@ -122,6 +122,7 @@
         ocultarCifrado();
         
        ajustarelementos2();
+       limpiar();
     }
 
 //da nuevos estilos a realizar la funcion
