@@ -91,7 +91,6 @@
 
     function limpiar(){
         document.getElementById("cajaTextoEscribir").value="";
-        document.getElementById("cajaTextoEscribir").focus();
     }
 
     function mostrarCifrado(){
